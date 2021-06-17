@@ -1,0 +1,17 @@
+{
+  "name": "automatedtests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run"
+  },
+  "author": "gladislao",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.6",
+    "cypress": "^7.5.0",
+    "faker": "^5.5.3"
+  }
+}
